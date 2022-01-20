@@ -8,7 +8,6 @@
         </compilerSettings>
         <compilerArguments>
           <flagArguments>
-            <flagArg name="noReflect" arg="true" />
             <flagArg name="noStdlib" arg="true" />
           </flagArguments>
           <stringArguments>
@@ -37,16 +36,16 @@
                 <arg>E:/maven_repository/caches/modules-2/files-2.1/io.ktor/ktor-utils-jvm/1.6.7/b746be94f9ed4ceac132930e84a41059d9490d9f/ktor-utils-jvm-1.6.7.jar</arg>
                 <arg>E:/maven_repository/caches/modules-2/files-2.1/io.ktor/ktor-io-jvm/1.6.7/375001bb92e11a788f93a58523ed73d9a0774e02/ktor-io-jvm-1.6.7.jar</arg>
                 <arg>E:/maven_repository/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.5.2-native-mt/26a9506d10d933615533c703483cec0a5c13a9f3/kotlinx-coroutines-core-jvm-1.5.2-native-mt.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.6.0/baf82c475e9372c25407f3d132439e4aa803b8b8/kotlin-stdlib-jdk8-1.6.0.jar</arg>
+                <arg>E:/maven_repository/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.6.10/e80fe6ac3c3573a80305f5ec43f86b829e8ab53d/kotlin-stdlib-jdk8-1.6.10.jar</arg>
                 <arg>E:/maven_repository/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.2.6/b09efa852337fa0dd9859614389eec58dc287116/logback-classic-1.2.6.jar</arg>
                 <arg>E:/maven_repository/caches/modules-2/files-2.1/org.ktorm/ktorm-core/3.4.1/c2fa992b8aed6e64195f140e149cac67644ac730/ktorm-core-3.4.1.jar</arg>
                 <arg>E:/maven_repository/caches/modules-2/files-2.1/mysql/mysql-connector-java/8.0.26/e5ec6610020a3084b7d32ee725d1650176f6b3de/mysql-connector-java-8.0.26.jar</arg>
                 <arg>E:/maven_repository/caches/modules-2/files-2.1/com.alibaba/druid/1.2.5/2eb1baffe7fb0a328694fa0f69e7b7d8d9e90b07/druid-1.2.5.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-junit/1.5.31/eccef3973cd6e54820d992c6b58b51922c7cf557/kotlin-test-junit-1.5.31.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.6.0/da6bdc87391322974a43ccc00a25536ae74dad51/kotlin-stdlib-jdk7-1.6.0.jar</arg>
+                <arg>E:/maven_repository/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-junit/1.6.10/7723f4362f824bf5fabef0ad213d188d2be8d937/kotlin-test-junit-1.6.10.jar</arg>
+                <arg>E:/maven_repository/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.6.10/e1c380673654a089c4f0c9f83d0ddfdc1efdb498/kotlin-stdlib-jdk7-1.6.10.jar</arg>
                 <arg>E:/maven_repository/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.6.0/a215a7f914d5916dc5fd2d45cea16524e0220203/kotlin-reflect-1.6.0.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test/1.5.31/a2fdf12f8d0013331e28ced69286fde14b93eed9/kotlin-test-1.5.31.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.6.0/a40b8b22529b733892edf4b73468ce598bb17f04/kotlin-stdlib-1.6.0.jar</arg>
+                <arg>E:/maven_repository/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test/1.6.10/59bace81228ddb06ac0dc81bd3a554bb19799715/kotlin-test-1.6.10.jar</arg>
+                <arg>E:/maven_repository/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.6.10/b8af3fe6f1ca88526914929add63cf5e7c5049af/kotlin-stdlib-1.6.10.jar</arg>
                 <arg>E:/maven_repository/caches/modules-2/files-2.1/org.thymeleaf/thymeleaf/3.0.14.RELEASE/5ec84717bf76bcbcc133f9f19bab754f97b92f8/thymeleaf-3.0.14.RELEASE.jar</arg>
                 <arg>E:/maven_repository/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.32/cdcff33940d9f2de763bc41ea05a0be5941176c3/slf4j-api-1.7.32.jar</arg>
                 <arg>E:/maven_repository/caches/modules-2/files-2.1/com.typesafe/config/1.4.1/19058a07624a87f90d129af7cd9c68bee94535a9/config-1.4.1.jar</arg>
@@ -59,7 +58,7 @@
                 <arg>E:/maven_repository/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.11.4/7ec0925cc3aef0335bbc7d57edfd42b0f86f8267/protobuf-java-3.11.4.jar</arg>
                 <arg>E:/maven_repository/caches/modules-2/files-2.1/junit/junit/4.13.2/8ac9e16d933b6fb43bc7f576336b8f4d7eb5ba12/junit-4.13.2.jar</arg>
                 <arg>E:/maven_repository/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.6.0/7857e365f925cfa060f941c1357cda1f8790502c/kotlin-stdlib-common-1.6.0.jar</arg>
+                <arg>E:/maven_repository/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.6.10/c118700e3a33c8a0d9adc920e9dec0831171925/kotlin-stdlib-common-1.6.10.jar</arg>
                 <arg>E:/maven_repository/caches/modules-2/files-2.1/ognl/ognl/3.1.26/922d3d922b8aa40146d842114c184c8b403d2f4f/ognl-3.1.26.jar</arg>
                 <arg>E:/maven_repository/caches/modules-2/files-2.1/org.attoparser/attoparser/2.0.5.RELEASE/a93ad36df9560de3a5312c1d14f69d938099fa64/attoparser-2.0.5.RELEASE.jar</arg>
                 <arg>E:/maven_repository/caches/modules-2/files-2.1/org.unbescape/unbescape/1.1.6.RELEASE/7b90360afb2b860e09e8347112800d12c12b2a13/unbescape-1.1.6.RELEASE.jar</arg>
@@ -88,8 +87,8 @@
             </stringArg>
             <stringArg name="destination" arg="$MODULE_DIR$/../../build/classes/kotlin/test" />
             <stringArg name="moduleName" arg="ktor_web_admin" />
-            <stringArg name="apiVersion" arg="1.5" />
-            <stringArg name="languageVersion" arg="1.5" />
+            <stringArg name="apiVersion" arg="1.6" />
+            <stringArg name="languageVersion" arg="1.6" />
           </stringArguments>
           <arrayArguments>
             <arrayArg name="friendPaths">
@@ -101,15 +100,12 @@
             </arrayArg>
             <arrayArg name="pluginClasspaths">
               <args>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-jvm/1.5.31/d854edda951feb05387ada385f8f3462ec01a885/kotlin-scripting-jvm-1.5.31.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-common/1.5.31/512a5997987cd210dcd5442da6aef00a5c12de90/kotlin-scripting-common-1.5.31.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.5.0/d8cebccdcddd029022aa8646a5a953ff88b13ac8/kotlinx-coroutines-core-jvm-1.5.0.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.5.0/65fbc439df2e4aad1f3769762d54534f1b564090/kotlin-stdlib-jdk8-1.5.0.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.5.0/f61904618ea7be07a66e0545ffe8dc2c70a19b77/kotlin-stdlib-jdk7-1.5.0.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.5.31/6628d61d0f5603568e72d2d5915d2c034b4f1c55/kotlin-stdlib-1.5.31.jar</arg>
+                <arg>E:/maven_repository/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-jvm/1.6.10/dbe683647dcb04cda92fe4423acb741a2f144a69/kotlin-scripting-jvm-1.6.10.jar</arg>
+                <arg>E:/maven_repository/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-common/1.6.10/b3b71fd93878f2b4f19d099ac6430c67549a1c77/kotlin-scripting-common-1.6.10.jar</arg>
+                <arg>E:/maven_repository/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.6.10/b8af3fe6f1ca88526914929add63cf5e7c5049af/kotlin-stdlib-1.6.10.jar</arg>
                 <arg>E:/maven_repository/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.5.31/43331609c7de811fed085e0dfd150874b157c32/kotlin-stdlib-common-1.5.31.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.5.31/aaea854be2cfc06373dfc11be5a6ba9ca5ca84a6/kotlin-script-runtime-1.5.31.jar</arg>
+                <arg>E:/maven_repository/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.6.10/c118700e3a33c8a0d9adc920e9dec0831171925/kotlin-stdlib-common-1.6.10.jar</arg>
+                <arg>E:/maven_repository/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.6.10/d0a7ff2e2500ef497ed0214ae40ad3c8387a6164/kotlin-script-runtime-1.6.10.jar</arg>
               </args>
             </arrayArg>
             <arrayArg name="pluginOptions" />
@@ -133,14 +129,14 @@
     <orderEntry type="library" name="Gradle: io.ktor:ktor-server-tests:1.6.7" level="project" />
     <orderEntry type="library" name="Gradle: io.ktor:ktor-server-netty:1.6.7" level="project" />
     <orderEntry type="library" name="Gradle: io.ktor:ktor-server-core:1.6.7" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10" level="project" />
     <orderEntry type="library" name="Gradle: ch.qos.logback:logback-classic:1.2.6" level="project" />
     <orderEntry type="library" name="Gradle: org.ktorm:ktorm-core:3.4.1" level="project" />
     <orderEntry type="library" name="Gradle: mysql:mysql-connector-java:8.0.26" level="project" />
     <orderEntry type="library" name="Gradle: com.alibaba:druid:1.2.5" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.5.31" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.6.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.6.10" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.10" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.6.10" level="project" />
     <orderEntry type="library" name="Gradle: org.thymeleaf:thymeleaf:3.0.14.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.32" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:1.5.2-native-mt" level="project" />
@@ -153,10 +149,10 @@
     <orderEntry type="library" name="Gradle: com.typesafe:config:1.4.1" level="project" />
     <orderEntry type="library" name="Gradle: ch.qos.logback:logback-core:1.2.6" level="project" />
     <orderEntry type="library" name="Gradle: com.google.protobuf:protobuf-java:3.11.4" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-test:1.5.31" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-test:1.6.10" level="project" />
     <orderEntry type="library" name="Gradle: junit:junit:4.13.2" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.6.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.6.10" level="project" />
     <orderEntry type="library" name="Gradle: ognl:ognl:3.1.26" level="project" />
     <orderEntry type="library" name="Gradle: org.attoparser:attoparser:2.0.5.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.unbescape:unbescape:1.1.6.RELEASE" level="project" />
