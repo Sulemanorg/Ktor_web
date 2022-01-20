@@ -16,7 +16,7 @@ internal val USERNAME = databaseProperties["username"]
 internal val PASSWORD = databaseProperties["password"]
 internal val DRIVER = databaseProperties["driver"]
 
-internal val database = Database.connect(DruidDataSource().apply {
+internal val DATABASE = Database.connect(DruidDataSource().apply {
     this.url = URL
     this.username = USERNAME
     this.password = PASSWORD
