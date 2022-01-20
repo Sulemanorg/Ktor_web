@@ -6,7 +6,7 @@ import com.xust.plugins.route.tableRoute
 import io.ktor.application.*
 
 /**
- *  注册路由
+ * 注册路由
  *
  * @author Liang on 2022/1/12
  */
