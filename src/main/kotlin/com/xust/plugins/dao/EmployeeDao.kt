@@ -6,14 +6,14 @@ import com.xust.plugins.entity.Employee
 import org.ktorm.dsl.*
 
 /**
- *
+ * EmployeeDao
  *
  * @author Liang on 2022/1/17
  */
 
-fun getEmployeeByIdDao(id: Long): List<Employee>{
+fun getEmployeeByIdDao(id: Int): List<Employee>{
     return DATABASE.from(TbEmployee).select()
-        .where { TbEmployee.id eq id.toInt() }
+        .where { TbEmployee.id eq id }
         .map { row -> TbEmployee.createEntity(row) }
 }
 
