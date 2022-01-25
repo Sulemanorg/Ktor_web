@@ -10,7 +10,7 @@ import com.xust.plugins.entity.Employee
  * @author Liang on 2022/1/18
  */
 
-fun getEmployeeByIdService(id: Long): List<Employee> {
+fun getEmployeeByIdService(id: Int): List<Employee> {
     return getEmployeeByIdDao(id)
 }
 

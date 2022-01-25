@@ -61,7 +61,7 @@ fun Route.home() {
 fun Route.getEmployeeById() {
     get("/employee/{id}") {
         val id = call.parameters["id"]
-        val employeeList = getEmployeeByIdService(id!!.toLong())
+        val employeeList = getEmployeeByIdService(id!!.toInt())
         call.respondText(employeeList[0].toString())
     }
 }
