@@ -1,5 +1,9 @@
 package com.xust.plugins
 
+import com.xust.plugins.route.formRoute
+import com.xust.plugins.route.indexRoute
+import com.xust.plugins.route.tableRoute
+import com.xust.plugins.service.getAllEmployeesService
 import io.ktor.application.*
 import io.ktor.auth.*
 import io.ktor.http.content.*
@@ -7,14 +11,17 @@ import io.ktor.response.*
 import io.ktor.routing.*
 import io.ktor.sessions.*
 import io.ktor.thymeleaf.*
+import io.ktor.request.*
 import org.thymeleaf.templateresolver.ClassLoaderTemplateResolver
-import java.io.File
 
 /**
  * 全局配置
  *
  * @author Liang on 2022/1/12
  */
+
+data class UserSession(val name: String, val count: Int) : Principal
+
 fun Application.configuration() {
 
     install(Thymeleaf) {
@@ -26,19 +33,18 @@ fun Application.configuration() {
     }
 
     install(Sessions) {
-        cookie<UserSession>("user_session", directorySessionStorage(File(".session"))) {
+        cookie<UserSession>("user_session") {
             cookie.path = "/"
             cookie.maxAgeInSeconds = 60
         }
     }
 
     install(Authentication) {
-
-        form("auth_form") {
+        form("auth-form") {
             userParamName = "username"
             passwordParamName = "password"
             validate { credentials ->
-                if (credentials.name.isNotEmpty() && credentials.password == "123456" ) {
+                if (credentials.name == "admin" && credentials.password == "123456") {
                     UserIdPrincipal(credentials.name)
                 } else {
                     null
@@ -48,17 +54,17 @@ fun Application.configuration() {
                 call.respond(ThymeleafContent("login", model = mapOf("msg" to "账号或密码错误!")))
             }
         }
-
-        session<UserSession>("auth_session") {
+        session<UserSession>("auth-session") {
             validate { session ->
-                if(session.username.isNotEmpty()) {
+                if(session.name =="admin") {
+                    println("Store session successfully!")
                     session
                 } else {
                     null
                 }
             }
             challenge {
-                call.respondRedirect("/login")
+                call.respond(ThymeleafContent("login", model = mapOf("msg" to "请先登录!")))
             }
         }
     }
@@ -69,8 +75,14 @@ fun Application.configuration() {
         }
     }
 
+    routing {
+        indexRoute()
+        formRoute()
+        tableRoute()
+    }
+
 }
 
-data class UserSession(val username: String, val password: String) : Principal
+
 
 
