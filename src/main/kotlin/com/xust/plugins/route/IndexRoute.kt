@@ -14,6 +14,7 @@ import io.ktor.thymeleaf.*
  *
  * @author Liang on 2022/1/13
  */
+
 fun Application.indexRoute() {
     routing {
 

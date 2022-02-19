@@ -13,6 +13,7 @@ import io.ktor.thymeleaf.*
  *
  * @author Liang on 2022/1/14
  */
+
 fun Application.tableRoute() {
     routing {
         authenticate("auth-session") {
