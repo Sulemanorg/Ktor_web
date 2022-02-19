@@ -80,7 +80,6 @@ fun Application.configuration() {
         formRoute()
         tableRoute()
     }
-
 }
 
 data class UserSession(val name: String, val count: Int) : Principal
