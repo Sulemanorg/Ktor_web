@@ -5,7 +5,7 @@ import com.xust.plugins.util.getProperties
 import org.ktorm.database.Database
 
 /**
- * 数据源配置
+ * datasource configuration
  *
  * @author Liang on 2022/1/17
  */
