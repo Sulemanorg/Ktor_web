@@ -14,7 +14,7 @@ import io.ktor.thymeleaf.*
 import org.thymeleaf.templateresolver.ClassLoaderTemplateResolver
 
 /**
- * 全局配置
+ * Global configuration
  *
  * @author Liang on 2022/1/12
  */
