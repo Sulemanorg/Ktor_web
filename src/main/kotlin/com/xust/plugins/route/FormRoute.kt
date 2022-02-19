@@ -15,7 +15,6 @@ import java.io.File
  * @author Liang on 2022/1/14
  */
 fun Application.formRoute() {
-
     routing {
         authenticate("auth-session") {
 
