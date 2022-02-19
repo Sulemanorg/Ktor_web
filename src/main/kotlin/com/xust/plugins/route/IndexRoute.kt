@@ -30,7 +30,6 @@ fun Application.indexRoute() {
         }
 
         authenticate("auth-session") {
-
             get("/logout") {
                 call.sessions.clear<UserSession>()
                 call.respondRedirect("/")
