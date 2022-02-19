@@ -69,12 +69,14 @@ fun Application.configuration() {
         }
     }
 
+    // static resources
     routing {
         static {
             resources("static")
         }
     }
 
+    // register route
     routing {
         indexRoute()
         formRoute()
