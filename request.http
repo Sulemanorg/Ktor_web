@@ -1,0 +1,12 @@
+GET {{base_url}}/dynamic_table
+Accept: application/json
+
+###
+POST {{base_url}}/login
+Content-Type: application/x-www-form-urlencoded
+
+username=admin&password=123456
+
+###
+GET {{base_url}}/
+Content-Type: text/html; charset=UTF-8
