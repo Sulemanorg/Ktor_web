@@ -11,7 +11,6 @@ import io.ktor.response.*
 import io.ktor.routing.*
 import io.ktor.sessions.*
 import io.ktor.thymeleaf.*
-import io.ktor.request.*
 import org.thymeleaf.templateresolver.ClassLoaderTemplateResolver
 
 /**
@@ -19,8 +18,6 @@ import org.thymeleaf.templateresolver.ClassLoaderTemplateResolver
  *
  * @author Liang on 2022/1/12
  */
-
-data class UserSession(val name: String, val count: Int) : Principal
 
 fun Application.configuration() {
 
@@ -54,6 +51,7 @@ fun Application.configuration() {
                 call.respond(ThymeleafContent("login", model = mapOf("msg" to "账号或密码错误!")))
             }
         }
+
         session<UserSession>("auth-session") {
             validate { session ->
                 if(session.name =="admin") {
@@ -84,6 +82,8 @@ fun Application.configuration() {
     }
 
 }
+
+data class UserSession(val name: String, val count: Int) : Principal
 
 
 
