@@ -17,7 +17,6 @@ import java.io.File
 fun Application.formRoute() {
 
     routing {
-
         authenticate("auth-session") {
 
             get("/form_layouts") {

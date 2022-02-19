@@ -16,7 +16,6 @@ import io.ktor.thymeleaf.*
 fun Application.tableRoute() {
 
     routing {
-
         authenticate("auth-session") {
 
             get("/basic_table") {
