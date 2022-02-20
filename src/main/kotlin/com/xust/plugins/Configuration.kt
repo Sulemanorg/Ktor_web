@@ -1,12 +1,17 @@
 package com.xust.plugins
 
+import com.fasterxml.jackson.core.util.DefaultIndenter
+import com.fasterxml.jackson.core.util.DefaultPrettyPrinter
+import com.fasterxml.jackson.databind.SerializationFeature
+import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule
 import com.xust.plugins.route.formRoute
 import com.xust.plugins.route.indexRoute
 import com.xust.plugins.route.tableRoute
-import com.xust.plugins.service.getAllEmployeesService
 import io.ktor.application.*
 import io.ktor.auth.*
+import io.ktor.features.*
 import io.ktor.http.content.*
+import io.ktor.jackson.*
 import io.ktor.response.*
 import io.ktor.routing.*
 import io.ktor.sessions.*
@@ -64,6 +69,20 @@ fun Application.configuration() {
             challenge {
                 call.respond(ThymeleafContent("login", model = mapOf("msg" to "请先登录!")))
             }
+        }
+    }
+
+    install(DefaultHeaders)
+    install(Compression)
+    install(CallLogging)
+    install(ContentNegotiation) {
+        jackson {
+            configure(SerializationFeature.INDENT_OUTPUT, true)
+            setDefaultPrettyPrinter(DefaultPrettyPrinter().apply {
+                indentArraysWith(DefaultPrettyPrinter.FixedSpaceIndenter.instance)
+                indentObjectsWith(DefaultIndenter("  ", "\n"))
+            })
+            registerModule(JavaTimeModule())  // support java.time.* types
         }
     }
 

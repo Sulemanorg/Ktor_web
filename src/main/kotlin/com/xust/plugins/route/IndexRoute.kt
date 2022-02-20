@@ -44,7 +44,7 @@ fun Application.indexRoute() {
             get("/employee/{id}") {
                 val id = call.parameters["id"]
                 val employeeList = getEmployeeByIdService(id!!.toInt())
-                call.respondText(employeeList[0].toString())
+                call.respond(employeeList[0])
             }
 
         }

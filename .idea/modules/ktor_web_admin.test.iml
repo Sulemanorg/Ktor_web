@@ -17,6 +17,7 @@
                 <arg>$MODULE_DIR$/../../build/resources/main</arg>
                 <arg>E:/maven_repository/caches/modules-2/files-2.1/io.ktor/ktor-thymeleaf/1.6.7/bdd03500cdae8e0040214d764b6a9f8707ceae37/ktor-thymeleaf-jvm-1.6.7.jar</arg>
                 <arg>E:/maven_repository/caches/modules-2/files-2.1/io.ktor/ktor-auth/1.6.7/c3670ba12dd1e18fdbbf8de362deaf6edd9d0536/ktor-auth-jvm-1.6.7.jar</arg>
+                <arg>E:/maven_repository/caches/modules-2/files-2.1/io.ktor/ktor-jackson/1.6.7/12906204ff985a0894d57ed222ec6fbeb0eb27d2/ktor-jackson-jvm-1.6.7.jar</arg>
                 <arg>E:/maven_repository/caches/modules-2/files-2.1/io.ktor/ktor-server-sessions/1.6.7/aa1fa9e5a622a8ee8d544228c272ac51919c2199/ktor-server-sessions-jvm-1.6.7.jar</arg>
                 <arg>E:/maven_repository/caches/modules-2/files-2.1/io.ktor/ktor-server-tests/1.6.7/e47b9699ab372bb70d9d7e2acef7dbac098af99/ktor-server-tests-jvm-1.6.7.jar</arg>
                 <arg>E:/maven_repository/caches/modules-2/files-2.1/io.ktor/ktor-server-netty/1.6.7/94a1c371efb5ce39ee4a2278034d2c86177c7e09/ktor-server-netty-jvm-1.6.7.jar</arg>
@@ -37,6 +38,11 @@
                 <arg>E:/maven_repository/caches/modules-2/files-2.1/io.ktor/ktor-io-jvm/1.6.7/375001bb92e11a788f93a58523ed73d9a0774e02/ktor-io-jvm-1.6.7.jar</arg>
                 <arg>E:/maven_repository/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.5.2-native-mt/26a9506d10d933615533c703483cec0a5c13a9f3/kotlinx-coroutines-core-jvm-1.5.2-native-mt.jar</arg>
                 <arg>E:/maven_repository/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.6.10/e80fe6ac3c3573a80305f5ec43f86b829e8ab53d/kotlin-stdlib-jdk8-1.6.10.jar</arg>
+                <arg>E:/maven_repository/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-kotlin/2.13.0/b736427958e447cc4a3c8c6a69e2deb4f6250252/jackson-module-kotlin-2.13.0.jar</arg>
+                <arg>E:/maven_repository/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.13.0/889672a1721d6d85b2834fcd29d3fda92c8c8891/jackson-databind-2.13.0.jar</arg>
+                <arg>E:/maven_repository/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.13.0/15be89db6609bd6fda3dc309bacf0318a312c03f/jackson-annotations-2.13.0.jar</arg>
+                <arg>E:/maven_repository/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.13.0/e957ec5442966e69cef543927bdc80e5426968bb/jackson-core-2.13.0.jar</arg>
+                <arg>E:/maven_repository/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.13.0/4c143877fc733befe6189151c8b95d84acd06941/jackson-datatype-jsr310-2.13.0.jar</arg>
                 <arg>E:/maven_repository/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.2.6/b09efa852337fa0dd9859614389eec58dc287116/logback-classic-1.2.6.jar</arg>
                 <arg>E:/maven_repository/caches/modules-2/files-2.1/org.ktorm/ktorm-core/3.4.1/c2fa992b8aed6e64195f140e149cac67644ac730/ktorm-core-3.4.1.jar</arg>
                 <arg>E:/maven_repository/caches/modules-2/files-2.1/mysql/mysql-connector-java/8.0.26/e5ec6610020a3084b7d32ee725d1650176f6b3de/mysql-connector-java-8.0.26.jar</arg>
@@ -125,11 +131,13 @@
     <orderEntry type="module" module-name="ktor_web_admin.main" />
     <orderEntry type="library" name="Gradle: io.ktor:ktor-thymeleaf:1.6.7" level="project" />
     <orderEntry type="library" name="Gradle: io.ktor:ktor-auth:1.6.7" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-jackson:1.6.7" level="project" />
     <orderEntry type="library" name="Gradle: io.ktor:ktor-server-sessions:1.6.7" level="project" />
     <orderEntry type="library" name="Gradle: io.ktor:ktor-server-tests:1.6.7" level="project" />
     <orderEntry type="library" name="Gradle: io.ktor:ktor-server-netty:1.6.7" level="project" />
     <orderEntry type="library" name="Gradle: io.ktor:ktor-server-core:1.6.7" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.0" level="project" />
     <orderEntry type="library" name="Gradle: ch.qos.logback:logback-classic:1.2.6" level="project" />
     <orderEntry type="library" name="Gradle: org.ktorm:ktorm-core:3.4.1" level="project" />
     <orderEntry type="library" name="Gradle: mysql:mysql-connector-java:8.0.26" level="project" />
@@ -141,12 +149,16 @@
     <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.32" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:1.5.2-native-mt" level="project" />
     <orderEntry type="library" name="Gradle: com.googlecode.json-simple:json-simple:1.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.module:jackson-module-kotlin:2.13.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.13.0" level="project" />
     <orderEntry type="library" name="Gradle: io.netty:netty-codec-http2:4.1.69.Final" level="project" />
     <orderEntry type="library" name="Gradle: org.eclipse.jetty.alpn:alpn-api:1.1.3.v20160715" level="project" />
     <orderEntry type="library" name="Gradle: io.netty:netty-transport-native-kqueue:4.1.69.Final" level="project" />
     <orderEntry type="library" name="Gradle: io.netty:netty-transport-native-epoll:4.1.69.Final" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.6.0" level="project" />
     <orderEntry type="library" name="Gradle: com.typesafe:config:1.4.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.13.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.13.0" level="project" />
     <orderEntry type="library" name="Gradle: ch.qos.logback:logback-core:1.2.6" level="project" />
     <orderEntry type="library" name="Gradle: com.google.protobuf:protobuf-java:3.11.4" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-test:1.6.10" level="project" />
