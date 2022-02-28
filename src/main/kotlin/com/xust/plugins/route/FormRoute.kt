@@ -37,6 +37,9 @@ fun Application.formRoute() {
                             var fileBytes = part.streamProvider().readBytes()
                             File("E:\\uploadtest\\$fileName").writeBytes(fileBytes)
                         }
+                        else -> {
+                            println("else")
+                        }
                     }
                 }
                 call.respondText("$fileDescription is uploaded to 'uploads/$fileName'")
