@@ -4,9 +4,11 @@ import com.fasterxml.jackson.core.util.DefaultIndenter
 import com.fasterxml.jackson.core.util.DefaultPrettyPrinter
 import com.fasterxml.jackson.databind.SerializationFeature
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule
+import com.xust.plugins.dao.impl.employeeDaoImpl
 import com.xust.plugins.route.formRoute
 import com.xust.plugins.route.indexRoute
 import com.xust.plugins.route.tableRoute
+import com.xust.plugins.service.employeeServiceImpl
 import io.ktor.application.*
 import io.ktor.auth.*
 import io.ktor.features.*
@@ -98,6 +100,16 @@ fun Application.configuration() {
         indexRoute()
         formRoute()
         tableRoute()
+    }
+
+    // init dao
+    routing {
+        employeeDaoImpl()
+    }
+
+    // init service
+    routing {
+        employeeServiceImpl()
     }
 }
 
