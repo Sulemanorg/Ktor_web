@@ -8,7 +8,7 @@ import com.xust.plugins.dao.impl.employeeDaoImpl
 import com.xust.plugins.route.formRoute
 import com.xust.plugins.route.indexRoute
 import com.xust.plugins.route.tableRoute
-import com.xust.plugins.service.employeeServiceImpl
+import com.xust.plugins.service.impl.employeeServiceImpl
 import io.ktor.application.*
 import io.ktor.auth.*
 import io.ktor.features.*
