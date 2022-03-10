@@ -61,7 +61,7 @@ fun Application.configuration() {
 
         session<UserSession>("auth-session") {
             validate { session ->
-                if(session.name =="admin") {
+                if(session.name == "admin") {
                     println("Authenticate successfully!")
                     session
                 } else {
