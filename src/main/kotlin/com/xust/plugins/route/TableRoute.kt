@@ -1,6 +1,5 @@
 package com.xust.plugins.route
 
-import com.xust.plugins.entity.Employee
 import com.xust.plugins.service.getAllEmployeesService
 import io.ktor.application.*
 import io.ktor.auth.*
