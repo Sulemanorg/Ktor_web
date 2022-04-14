@@ -10,11 +10,11 @@ import org.ktorm.database.Database
  * @author Liang on 2022/1/17
  */
 
-internal val databaseProperties = getProperties("database")
-internal val URL = databaseProperties["url"]
-internal val USERNAME = databaseProperties["username"]
-internal val PASSWORD = databaseProperties["password"]
-internal val DRIVER = databaseProperties["driver"]
+private val databaseProperties = getProperties("database")
+private val URL = databaseProperties["url"]
+private val USERNAME = databaseProperties["username"]
+private val PASSWORD = databaseProperties["password"]
+private val DRIVER = databaseProperties["driver"]
 
 internal val DATABASE = Database.connect(DruidDataSource().apply {
     this.url = URL
