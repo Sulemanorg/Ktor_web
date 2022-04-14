@@ -11,86 +11,6 @@
             <flagArg name="noStdlib" arg="true" />
           </flagArguments>
           <stringArguments>
-            <stringArg name="classpath">
-              <args>
-                <arg>$MODULE_DIR$/../../build/classes/kotlin/main</arg>
-                <arg>$MODULE_DIR$/../../build/resources/main</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/io.ktor/ktor-thymeleaf/1.6.7/bdd03500cdae8e0040214d764b6a9f8707ceae37/ktor-thymeleaf-jvm-1.6.7.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/io.ktor/ktor-auth/1.6.7/c3670ba12dd1e18fdbbf8de362deaf6edd9d0536/ktor-auth-jvm-1.6.7.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/io.ktor/ktor-jackson/1.6.7/12906204ff985a0894d57ed222ec6fbeb0eb27d2/ktor-jackson-jvm-1.6.7.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/io.ktor/ktor-server-sessions/1.6.7/aa1fa9e5a622a8ee8d544228c272ac51919c2199/ktor-server-sessions-jvm-1.6.7.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/io.ktor/ktor-server-tests/1.6.7/e47b9699ab372bb70d9d7e2acef7dbac098af99/ktor-server-tests-jvm-1.6.7.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/io.ktor/ktor-server-netty/1.6.7/94a1c371efb5ce39ee4a2278034d2c86177c7e09/ktor-server-netty-jvm-1.6.7.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/io.ktor/ktor-server-test-host/1.6.7/50231671149dc7a5baa9f7787db2f5096c23b7e7/ktor-server-test-host-jvm-1.6.7.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/io.ktor/ktor-server-host-common/1.6.7/c0212569569df574e979bd0e88fb5b1a7747797e/ktor-server-host-common-jvm-1.6.7.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/io.ktor/ktor-websockets/1.6.7/6195e78178131847788d7cacf983ff65a17ca1a9/ktor-websockets-jvm-1.6.7.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/io.ktor/ktor-server-core/1.6.7/938a99fccb2cc0195ba97cfde1ec4eadbc210a5a/ktor-server-core-jvm-1.6.7.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/io.ktor/ktor-network-tls-certificates/1.6.7/bd3b166d4d0c52237440128d31667d238d7656ea/ktor-network-tls-certificates-jvm-1.6.7.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-jdk8/1.5.2-native-mt/d69f81952deecb5b523eec050ee1b5481bba482c/kotlinx-coroutines-jdk8-1.5.2-native-mt.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/io.ktor/ktor-client-jetty/1.6.7/17762ccb02a5d45fb49cae5370698526e90925ac/ktor-client-jetty-jvm-1.6.7.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/io.ktor/ktor-client-cio-jvm/1.6.7/ba29f8702aa4809656d3a2e14f1b11674d394a09/ktor-client-cio-jvm-1.6.7.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/io.ktor/ktor-client-core-jvm/1.6.7/6732da42e91ee8d51abfc1d4113606956f1dd7/ktor-client-core-jvm-1.6.7.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/io.ktor/ktor-http-cio-jvm/1.6.7/7fb3f35841398d7bcf95a8917c7e4ebb7bef61e3/ktor-http-cio-jvm-1.6.7.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/io.ktor/ktor-http-jvm/1.6.7/eb564a2a40e64d786d914a989759abd8c553e419/ktor-http-jvm-1.6.7.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/io.ktor/ktor-network-tls-jvm/1.6.7/a5181bdf71b2a15546ef5d465db9be5eed33b636/ktor-network-tls-jvm-1.6.7.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/io.ktor/ktor-network-jvm/1.6.7/d59262677cab11f50be579a468e3bfe34efd0b80/ktor-network-jvm-1.6.7.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/io.ktor/ktor-utils-jvm/1.6.7/b746be94f9ed4ceac132930e84a41059d9490d9f/ktor-utils-jvm-1.6.7.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/io.ktor/ktor-io-jvm/1.6.7/375001bb92e11a788f93a58523ed73d9a0774e02/ktor-io-jvm-1.6.7.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.5.2-native-mt/26a9506d10d933615533c703483cec0a5c13a9f3/kotlinx-coroutines-core-jvm-1.5.2-native-mt.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.6.10/e80fe6ac3c3573a80305f5ec43f86b829e8ab53d/kotlin-stdlib-jdk8-1.6.10.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-kotlin/2.13.0/b736427958e447cc4a3c8c6a69e2deb4f6250252/jackson-module-kotlin-2.13.0.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.13.0/889672a1721d6d85b2834fcd29d3fda92c8c8891/jackson-databind-2.13.0.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.13.0/15be89db6609bd6fda3dc309bacf0318a312c03f/jackson-annotations-2.13.0.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.13.0/e957ec5442966e69cef543927bdc80e5426968bb/jackson-core-2.13.0.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.13.0/4c143877fc733befe6189151c8b95d84acd06941/jackson-datatype-jsr310-2.13.0.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.2.6/b09efa852337fa0dd9859614389eec58dc287116/logback-classic-1.2.6.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/org.ktorm/ktorm-core/3.4.1/c2fa992b8aed6e64195f140e149cac67644ac730/ktorm-core-3.4.1.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/mysql/mysql-connector-java/8.0.26/e5ec6610020a3084b7d32ee725d1650176f6b3de/mysql-connector-java-8.0.26.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/com.alibaba/druid/1.2.5/2eb1baffe7fb0a328694fa0f69e7b7d8d9e90b07/druid-1.2.5.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-junit/1.6.10/7723f4362f824bf5fabef0ad213d188d2be8d937/kotlin-test-junit-1.6.10.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.6.10/e1c380673654a089c4f0c9f83d0ddfdc1efdb498/kotlin-stdlib-jdk7-1.6.10.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.6.0/a215a7f914d5916dc5fd2d45cea16524e0220203/kotlin-reflect-1.6.0.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test/1.6.10/59bace81228ddb06ac0dc81bd3a554bb19799715/kotlin-test-1.6.10.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.6.10/b8af3fe6f1ca88526914929add63cf5e7c5049af/kotlin-stdlib-1.6.10.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/org.thymeleaf/thymeleaf/3.0.15.RELEASE/13e3296a03d8a597b734d832ed8656139bf9cdd8/thymeleaf-3.0.15.RELEASE.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.32/cdcff33940d9f2de763bc41ea05a0be5941176c3/slf4j-api-1.7.32.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/com.typesafe/config/1.4.1/19058a07624a87f90d129af7cd9c68bee94535a9/config-1.4.1.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/io.netty/netty-codec-http2/4.1.69.Final/cfd4423c9d19683a6bf37e235830e73ec2f75ec1/netty-codec-http2-4.1.69.Final.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/org.eclipse.jetty.alpn/alpn-api/1.1.3.v20160715/a1bf3a937f91b4c953acd13e8c9552347adc2198/alpn-api-1.1.3.v20160715.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/io.netty/netty-transport-native-kqueue/4.1.69.Final/b02f2b4051d17f4ec81daf7000231596ba82adf2/netty-transport-native-kqueue-4.1.69.Final.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.1.69.Final/22752c3332435a870157ca92583ac2566a60567e/netty-transport-native-epoll-4.1.69.Final.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/com.googlecode.json-simple/json-simple/1.1.1/c9ad4a0850ab676c5c64461a05ca524cdfff59f1/json-simple-1.1.1.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.2.6/25be1abb32e870ff042e698a799b56587e0dca9a/logback-core-1.2.6.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.11.4/7ec0925cc3aef0335bbc7d57edfd42b0f86f8267/protobuf-java-3.11.4.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/junit/junit/4.13.2/8ac9e16d933b6fb43bc7f576336b8f4d7eb5ba12/junit-4.13.2.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.6.10/c118700e3a33c8a0d9adc920e9dec0831171925/kotlin-stdlib-common-1.6.10.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/ognl/ognl/3.1.26/922d3d922b8aa40146d842114c184c8b403d2f4f/ognl-3.1.26.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/org.attoparser/attoparser/2.0.5.RELEASE/a93ad36df9560de3a5312c1d14f69d938099fa64/attoparser-2.0.5.RELEASE.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/org.unbescape/unbescape/1.1.6.RELEASE/7b90360afb2b860e09e8347112800d12c12b2a13/unbescape-1.1.6.RELEASE.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/io.netty/netty-codec-http/4.1.69.Final/702c6104a716ca9dc8eec6f4459733fdfcbe1959/netty-codec-http-4.1.69.Final.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/io.netty/netty-handler/4.1.69.Final/73e932059ce8881094cedcfe4a92b8391ffa7b1b/netty-handler-4.1.69.Final.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.69.Final/617ecaee8bcb3874234e8c0832843ebbc9e9dcc9/netty-codec-4.1.69.Final.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/io.netty/netty-transport-native-unix-common/4.1.69.Final/b055314f117262c23df91a3874bebf0a53f3e24/netty-transport-native-unix-common-4.1.69.Final.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.69.Final/228e5318012edb93138005ebe896b5dd91d4b47d/netty-transport-4.1.69.Final.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/io.netty/netty-buffer/4.1.69.Final/c87da90e422b331ecd1e157ca77e5300348b6d0d/netty-buffer-4.1.69.Final.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/io.netty/netty-resolver/4.1.69.Final/d4e7b1b8c1e5aeaf41877906b90762f1e0151902/netty-resolver-4.1.69.Final.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/io.netty/netty-common/4.1.69.Final/810e0649787c4930a8e699d68eb8519df2560dd0/netty-common-4.1.69.Final.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/org.javassist/javassist/3.20.0-GA/a9cbcdfb7e9f86fbc74d3afae65f2248bfbf82a0/javassist-3.20.0-GA.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/org.eclipse.jetty.http2/http2-http-client-transport/9.4.42.v20210604/3f427319127e533648c1d4deef715894f1b9e77/http2-http-client-transport-9.4.42.v20210604.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/org.eclipse.jetty.http2/http2-client/9.4.42.v20210604/39d37afc07f1eed91db889bd1d01e4002a9bd9b/http2-client-9.4.42.v20210604.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-client/9.4.42.v20210604/14153048e3a5d4eca6c0619ad9e8462f5054b19/jetty-client-9.4.42.v20210604.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/org.eclipse.jetty.http2/http2-common/9.4.42.v20210604/6d52639a51de93fa3e8f6d595a10409ea2536d4b/http2-common-9.4.42.v20210604.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-alpn-openjdk8-client/9.4.42.v20210604/f1119122b89320be9b47d0f5e8e6fdb0813b72b7/jetty-alpn-openjdk8-client-9.4.42.v20210604.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-alpn-java-client/9.4.42.v20210604/9b85c245e0ba069d4c7178b659446f5a90331718/jetty-alpn-java-client-9.4.42.v20210604.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-alpn-client/9.4.42.v20210604/7d69b4ae621989a86d084630212ebeee9cbb2593/jetty-alpn-client-9.4.42.v20210604.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/org.eclipse.jetty.http2/http2-hpack/9.4.42.v20210604/352a5f45ec1ae059a3418fd4119d57226bdd747d/http2-hpack-9.4.42.v20210604.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-http/9.4.42.v20210604/2b0bb748d2388c6aa981ab29bc0a6a695dee31a4/jetty-http-9.4.42.v20210604.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-io/9.4.42.v20210604/581c5bb1aca96934e6961315fff066000c783659/jetty-io-9.4.42.v20210604.jar</arg>
-                <arg>E:/maven_repository/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-util/9.4.42.v20210604/16b116e9982c2037fd4bf05ce2525ccd5917eb9c/jetty-util-9.4.42.v20210604.jar</arg>
-              </args>
-            </stringArg>
             <stringArg name="destination" arg="$MODULE_DIR$/../../build/classes/kotlin/test" />
             <stringArg name="moduleName" arg="ktor_web_admin" />
             <stringArg name="apiVersion" arg="1.6" />
@@ -129,84 +49,103 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="ktor_web_admin.main" />
-    <orderEntry type="library" name="Gradle: io.ktor:ktor-thymeleaf:1.6.7" level="project" />
-    <orderEntry type="library" name="Gradle: io.ktor:ktor-auth:1.6.7" level="project" />
-    <orderEntry type="library" name="Gradle: io.ktor:ktor-jackson:1.6.7" level="project" />
-    <orderEntry type="library" name="Gradle: io.ktor:ktor-server-sessions:1.6.7" level="project" />
-    <orderEntry type="library" name="Gradle: io.ktor:ktor-server-tests:1.6.7" level="project" />
-    <orderEntry type="library" name="Gradle: io.ktor:ktor-server-netty:1.6.7" level="project" />
-    <orderEntry type="library" name="Gradle: io.ktor:ktor-server-core:1.6.7" level="project" />
-    <orderEntry type="library" name="Gradle: io.ktor:ktor-network-tls-certificates:1.6.7" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10" level="project" />
-    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.0" level="project" />
-    <orderEntry type="library" name="Gradle: ch.qos.logback:logback-classic:1.2.6" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.8" level="project" />
+    <orderEntry type="library" name="Gradle: ch.qos.logback:logback-classic:1.2.3" level="project" />
     <orderEntry type="library" name="Gradle: org.ktorm:ktorm-core:3.4.1" level="project" />
     <orderEntry type="library" name="Gradle: mysql:mysql-connector-java:8.0.26" level="project" />
     <orderEntry type="library" name="Gradle: com.alibaba:druid:1.2.5" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.6.10" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.10" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.6.10" level="project" />
-    <orderEntry type="library" name="Gradle: org.thymeleaf:thymeleaf:3.0.15.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.32" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:1.5.2-native-mt" level="project" />
-    <orderEntry type="library" name="Gradle: com.googlecode.json-simple:json-simple:1.1.1" level="project" />
-    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.module:jackson-module-kotlin:2.13.0" level="project" />
-    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.13.0" level="project" />
-    <orderEntry type="library" name="Gradle: io.netty:netty-codec-http2:4.1.69.Final" level="project" />
-    <orderEntry type="library" name="Gradle: org.eclipse.jetty.alpn:alpn-api:1.1.3.v20160715" level="project" />
-    <orderEntry type="library" name="Gradle: io.netty:netty-transport-native-kqueue:4.1.69.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.netty:netty-transport-native-epoll:4.1.69.Final" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.6.0" level="project" />
-    <orderEntry type="library" name="Gradle: com.typesafe:config:1.4.1" level="project" />
-    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.13.0" level="project" />
-    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.13.0" level="project" />
-    <orderEntry type="library" name="Gradle: ch.qos.logback:logback-core:1.2.6" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.6.20" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-server-tests-jvm:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-server-sessions-jvm:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-server-netty-jvm:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-server-core-jvm:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-network-tls-certificates-jvm:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.20" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.6.20" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.8" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.9.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.9.8" level="project" />
+    <orderEntry type="library" name="Gradle: ch.qos.logback:logback-core:1.2.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.36" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.6.20" level="project" />
     <orderEntry type="library" name="Gradle: com.google.protobuf:protobuf-java:3.11.4" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-test:1.6.10" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-test:1.6.20" level="project" />
     <orderEntry type="library" name="Gradle: junit:junit:4.13.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:1.6.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.6.20" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec-http2:4.1.74.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.alpn:alpn-api:1.1.3.v20160715" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport-native-kqueue:4.1.74.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport-native-epoll:4.1.74.Final" level="project" />
+    <orderEntry type="library" name="Gradle: com.typesafe:config:1.4.1" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.6.10" level="project" />
-    <orderEntry type="library" name="Gradle: ognl:ognl:3.1.26" level="project" />
-    <orderEntry type="library" name="Gradle: org.attoparser:attoparser:2.0.5.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.unbescape:unbescape:1.1.6.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: io.ktor:ktor-client-core-jvm:1.6.7" level="project" />
-    <orderEntry type="library" name="Gradle: io.ktor:ktor-server-test-host:1.6.7" level="project" />
-    <orderEntry type="library" name="Gradle: io.ktor:ktor-server-host-common:1.6.7" level="project" />
-    <orderEntry type="library" name="Gradle: io.netty:netty-codec-http:4.1.69.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.netty:netty-handler:4.1.69.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.netty:netty-codec:4.1.69.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.netty:netty-transport:4.1.69.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.netty:netty-buffer:4.1.69.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.netty:netty-common:4.1.69.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.netty:netty-transport-native-unix-common:4.1.69.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.ktor:ktor-http-jvm:1.6.7" level="project" />
-    <orderEntry type="library" name="Gradle: io.ktor:ktor-utils-jvm:1.6.7" level="project" />
-    <orderEntry type="library" name="Gradle: io.ktor:ktor-network-tls-jvm:1.6.7" level="project" />
     <orderEntry type="library" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
-    <orderEntry type="library" name="Gradle: org.javassist:javassist:3.20.0-GA" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.5.2-native-mt" level="project" />
-    <orderEntry type="library" name="Gradle: org.eclipse.jetty.http2:http2-http-client-transport:9.4.42.v20210604" level="project" />
-    <orderEntry type="library" name="Gradle: org.eclipse.jetty.http2:http2-client:9.4.42.v20210604" level="project" />
-    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-client:9.4.42.v20210604" level="project" />
-    <orderEntry type="library" name="Gradle: io.netty:netty-resolver:4.1.69.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.ktor:ktor-http-cio-jvm:1.6.7" level="project" />
-    <orderEntry type="library" name="Gradle: io.ktor:ktor-websockets:1.6.7" level="project" />
-    <orderEntry type="library" name="Gradle: io.ktor:ktor-client-jetty:1.6.7" level="project" />
-    <orderEntry type="library" name="Gradle: io.ktor:ktor-client-cio-jvm:1.6.7" level="project" />
-    <orderEntry type="library" name="Gradle: org.eclipse.jetty.http2:http2-common:9.4.42.v20210604" level="project" />
-    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-alpn-client:9.4.42.v20210604" level="project" />
-    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-http:9.4.42.v20210604" level="project" />
-    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-io:9.4.42.v20210604" level="project" />
-    <orderEntry type="library" name="Gradle: io.ktor:ktor-io-jvm:1.6.7" level="project" />
-    <orderEntry type="library" name="Gradle: io.ktor:ktor-network-jvm:1.6.7" level="project" />
-    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-alpn-openjdk8-client:9.4.42.v20210604" level="project" />
-    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-alpn-java-client:9.4.42.v20210604" level="project" />
-    <orderEntry type="library" name="Gradle: org.eclipse.jetty.http2:http2-hpack:9.4.42.v20210604" level="project" />
-    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-util:9.4.42.v20210604" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-server-jvm:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-server-test-host-jvm:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-server-host-common-jvm:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec-http:4.1.74.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-handler:4.1.74.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec:4.1.74.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport:4.1.74.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-buffer:4.1.74.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-common:4.1.74.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport-classes-kqueue:4.1.74.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport-native-unix-common:4.1.74.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport-classes-epoll:4.1.74.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-serialization-jvm:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-events-jvm:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-http-jvm:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-utils-jvm:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-network-tls-jvm:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.http2:http2-http-client-transport:9.4.45.v20220203" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.http2:http2-client:9.4.45.v20220203" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-client:9.4.45.v20220203" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-resolver:4.1.74.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-tcnative-classes:2.0.48.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-server-auto-head-response-jvm:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-server-caching-headers-jvm:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-server-partial-content-jvm:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-server-conditional-headers-jvm:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-server-content-negotiation-jvm:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-server-call-id-jvm:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-server-cors-jvm:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-server-data-conversion-jvm:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-server-double-receive-jvm:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-server-forwarded-header-jvm:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-server-hsts-jvm:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-server-http-redirect-jvm:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-server-status-pages-jvm:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-server-method-override-jvm:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-server-call-logging-jvm:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-server-default-headers-jvm:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-server-compression-jvm:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-server-websockets-jvm:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-client-jetty-jvm:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-client-cio-jvm:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-client-core-jvm:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.http2:http2-common:9.4.45.v20220203" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-alpn-client:9.4.45.v20220203" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-http:9.4.45.v20220203" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-io:9.4.45.v20220203" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-websockets-jvm:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-http-cio-jvm:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-io-jvm:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-network-jvm:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-alpn-openjdk8-client:9.4.45.v20220203" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-alpn-java-client:9.4.45.v20220203" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.http2:http2-hpack:9.4.45.v20220203" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-util:9.4.45.v20220203" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-websocket-serialization-jvm:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-thymeleaf:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-auth:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-jackson:2.0.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.fusesource.jansi:jansi:2.4.0" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-debug:1.5.2-native-mt" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: net.java.dev.jna:jna-platform:5.5.0" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: net.java.dev.jna:jna:5.5.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-debug:1.6.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: net.java.dev.jna:jna-platform:5.9.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: net.java.dev.jna:jna:5.9.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-slf4j:1.6.0" level="project" />
   </component>
   <component name="TestModuleProperties" production-module="ktor_web_admin.main" />
 </module>
